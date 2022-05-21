@@ -1,0 +1,29 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Split the screen in vertical */
+.vertical-split {
+    top: 0%;
+    /*bottom: 70%;*/
+    /*height: 100%;*/
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    /*padding-top: 20px;*/
+}
+
+/* Control the top side */
+.top {
+    top: 0;
+    background-color: #aaa;
+}
+
+/* Control the bottom side */
+.bottom {
+    bottom: 0;
+    background-color: green;
+}
